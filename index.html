@@ -40,6 +40,36 @@ color:#333;
 font-weight:bold;
 }
 
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+}
+
+.product-card{
+border:1px solid #eee;
+padding:20px;
+border-radius:10px;
+background:#fff;
+text-align:center;
+}
+
+.product-card img{
+width:100%;
+border-radius:8px;
+margin-bottom:10px;
+}
+
+.product-card h3{
+color:#e91e63;
+margin:10px 0 5px;
+}
+
+.product-card p{
+margin:5px 0;
+color:#555;
+}
+
 .hero{
 background:#fce4ec;
 padding:80px 20px;
@@ -124,6 +154,7 @@ background:#c2185b;
 <nav>
 <a href="#inicio">Inicio</a>
 <a href="#servicios">Servicios</a>
+<a href="#productos">Productos</a>
 <a href="#galeria">Galería</a>
 <a href="#contacto">Contacto</a>
 </nav>
@@ -171,6 +202,44 @@ background:#c2185b;
 
 </section>
 
+<section id="productos">
+<h2>Nuestros Productos</h2>
+
+<div class="products">
+
+<div class="product-card">
+<img src="IMG_2359.jpeg" alt="Producto Dream Up 1">
+<h3>Producto Dream Up 1</h3>
+</div>
+
+<div class="product-card">
+<img src="IMG_2567.jpeg" alt="Producto Dream Up 2">
+<h3>Producto Dream Up 2</h3>
+</div>
+
+<div class="product-card">
+<img src="IMG_3064.jpeg" alt="Producto Dream Up 3">
+<h3>Producto Dream Up 3</h3>
+</div>
+
+<div class="product-card">
+<img src="IMG_3065.jpeg" alt="Producto Dream Up 4">
+<h3>Producto Dream Up 4</h3>
+</div>
+
+<div class="product-card">
+<img src="IMG_3066.jpeg" alt="Producto Dream Up 5">
+<h3>Producto Dream Up 5</h3>
+</div>
+
+<div class="product-card">
+<img src="IMG_3067.jpeg" alt="Producto Dream Up 6">
+<h3>Producto Dream Up 6</h3>
+</div>
+
+</div>
+</section>
+
 <section id="contacto" class="contact">
 <h2>Contacto</h2>
 <p>Email: contacto@dreamup.com</p>
@@ -183,34 +252,6 @@ background:#c2185b;
 <footer>
 <p>© 2026 Dream Up - Todos los derechos reservados</p>
 </footer>
-<h2>Nuestros productos</h2>
 
-<img src="IMG_2359.jpeg" width="200">
-
-<h2>Nuestros productos</h2>
-
-<img src="IMG_2359.jpeg" width="200">
-<p>Producto Dream Up 1</p>
-
-<img src="IMG_2567.jpeg" width="200">
-<p>Producto Dream Up 2</p>
-
-<img src="IMG_3064.jpeg" width="200">
-<p>Producto Dream Up 3</p>
-
-<img src="IMG_3065.jpeg" width="200">
-<p>Producto Dream Up 4</p>
-
-<img src="IMG_3066.jpeg" width="200">
-<p>Producto Dream Up 5</p>
-
-<img src="IMG_3067.jpeg" width="200">
-<p>Producto Dream Up 6</p>
 </body>
 </html>
-<h2>Nuestros productos</h2>
-
-<img src="labial.jpg" width="200">
-
-<p>Labial Dream Up</p>
-<p>Precio: 15€</p>
